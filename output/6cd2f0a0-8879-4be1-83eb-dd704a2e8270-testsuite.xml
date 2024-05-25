@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716651352052' stop='1716651424236'>
+    <name>Live Page Tests</name>
+    <title>Live Page Tests</title>
+    <test-cases>
+        <test-case start='1716651354666' status='failed' stop='1716651383342'>
+            <name>Validate Livestream Player is visible</name>
+            <title>Validate Livestream Player is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716651354680' status='failed' stop='1716651383342'>
+                    <name>Given I am on the live page ""</name>
+                    <title>Given I am on the live page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716651354680' status='passed' stop='1716651373325'>
+                            <name>I am on page "https://www.aljazeera.com/live"</name>
+                            <title>I am on page "https://www.aljazeera.com/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716651373326' status='failed' stop='1716651383341'>
+                            <name>I wait for element "#livePlayer", 10</name>
+                            <title>I wait for element "#livePlayer", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='e0a4206a-5d37-46b2-834a-af30faa38c88-attachment.png' type='image/png' size='909209'/>
+            </attachments>
+            <failure>
+                <message>element (#livePlayer) still not present on page after 10 sec</message>
+                <stack-trace>Error: element (#livePlayer) still not present on page after 10 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716651383855' status='failed' stop='1716651423308'>
+            <name>Validate Switch Player button is visible in Livestream Player</name>
+            <title>Validate Switch Player button is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716651383861' status='failed' stop='1716651423308'>
+                    <name>Given I am on the live page ""</name>
+                    <title>Given I am on the live page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716651383861' status='passed' stop='1716651413300'>
+                            <name>I am on page "https://www.aljazeera.com/live"</name>
+                            <title>I am on page "https://www.aljazeera.com/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716651413300' status='failed' stop='1716651423308'>
+                            <name>I wait for element "#livePlayer", 10</name>
+                            <title>I wait for element "#livePlayer", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='9a7e260a-e09d-4483-9de6-ff41e61ac8e4-attachment.png' type='image/png' size='1045270'/>
+            </attachments>
+            <failure>
+                <message>element (#livePlayer) still not present on page after 10 sec</message>
+                <stack-trace>Error: element (#livePlayer) still not present on page after 10 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

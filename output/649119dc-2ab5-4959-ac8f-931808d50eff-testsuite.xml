@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716638180562' stop='1716638186922'>
+    <name>Livestream Player</name>
+    <title>Livestream Player</title>
+    <test-cases>
+        <test-case start='1716638183501' status='failed' stop='1716638183508'>
+            <name>Validate Player is visible in Livestream Player</name>
+            <title>Validate Player is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='7e89ad20-b281-4fff-9c7e-1b1a44a36db0-attachment.png' type='image/png' size='6754'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "I am on the Al Jazeera live page"</message>
+                <stack-trace>Error: No steps matching "I am on the Al Jazeera live page"
+                    at matchStep (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\bdd.js:50:9)
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:60:18)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716638185221' status='failed' stop='1716638185224'>
+            <name>Validate Switch Player button is visible in Livestream Player</name>
+            <title>Validate Switch Player button is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='f5e6fd32-b39b-40b0-82ab-bc7690bb6ace-attachment.png' type='image/png' size='6754'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "I am on the Al Jazeera live page"</message>
+                <stack-trace>Error: No steps matching "I am on the Al Jazeera live page"
+                    at matchStep (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\bdd.js:50:9)
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:60:18)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

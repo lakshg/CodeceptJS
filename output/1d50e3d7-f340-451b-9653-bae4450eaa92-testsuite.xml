@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716658104382' stop='1716658123107'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716658109601' status='failed' stop='1716658122688'>
+            <name>Verify Most Read section is not appearing on Mobile @only</name>
+            <title>Verify Most Read section is not appearing on Mobile @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716658109638' status='failed' stop='1716658122687'>
+                    <name>Given I am on the main page with mobile viewport ""</name>
+                    <title>Given I am on the main page with mobile viewport ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716658109638' status='passed' stop='1716658110008'>
+                            <name>I resize window 375, 812</name>
+                            <title>I resize window 375, 812</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658110009' status='passed' stop='1716658122635'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658122636' status='failed' stop='1716658122687'>
+                            <name>I dont see element "div.hp-featured-categories > div:nth-child(1) >h3", 30</name>
+                            <title>I dont see element "div.hp-featured-categories > div:nth-child(1) >h3", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='746cef27-c104-4718-9d47-8f6dd8355b75-attachment.png' type='image/png' size='542532'/>
+            </attachments>
+            <failure>
+                <message>Element "div.hp-featured-categories > div:nth-child(1) >h3" is still visible on page.</message>
+                <stack-trace>Error: Element "div.hp-featured-categories > div:nth-child(1) >h3" is still visible on page.
+                    at seeElementError (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\errors\ElementAssertion.js:9:9)
+                    at WebDriver.dontSeeElement (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:1499:7)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

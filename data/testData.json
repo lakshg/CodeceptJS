@@ -1,0 +1,10 @@
+{
+  "mainPage": {
+    "url": "https://www.aljazeera.com/",
+    "expectedPosts": 10,
+    "heading":"Must Read"
+  },
+  "livePage": {
+    "url": "https://www.aljazeera.com/live"
+  }
+}

@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716658324785' stop='1716658367510'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716658332946' status='failed' stop='1716658366672'>
+            <name>Verify Bypass Block menu item for Most Read is working on Desktop @only</name>
+            <title>Verify Bypass Block menu item for Most Read is working on Desktop @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716658332998' status='passed' stop='1716658366629'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716658332998' status='passed' stop='1716658366507'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658366508' status='passed' stop='1716658366556'>
+                            <name>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</name>
+                            <title>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658366556' status='passed' stop='1716658366628'>
+                            <name>On mainPage: see most read section "Must Read"</name>
+                            <title>On mainPage: see most read section "Must Read"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716658366556' status='passed' stop='1716658366627'>
+                                    <name>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</name>
+                                    <title>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1716658366628' status='passed' stop='1716658366628'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658366628' status='passed' stop='1716658366628'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716658366629' status='failed' stop='1716658366672'>
+                    <name>When I click on the Bypass Block menu ""</name>
+                    <title>When I click on the Bypass Block menu ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716658366629' status='passed' stop='1716658366669'>
+                            <name>I wait for element "body", 30</name>
+                            <title>I wait for element "body", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716658366669' status='failed' stop='1716658366672'>
+                            <name>On mainPage: click bypass menu </name>
+                            <title>On mainPage: click bypass menu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716658366669' status='failed' stop='1716658366671'>
+                                    <name>I click "body", {"x":10,"y":10}</name>
+                                    <title>I click "body", {"x":10,"y":10}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='f655abce-556a-47f6-99e6-7a3255929a5f-attachment.png' type='image/png' size='1164735'/>
+            </attachments>
+            <failure>
+                <message>Please define "customLocatorStrategies" as an Object and the Locator Strategy as a "function".</message>
+                <stack-trace>Error: Please define "customLocatorStrategies" as an Object and the Locator Strategy as a "function".
+                    at WebDriver._isCustomLocator (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:587:13)
+                    at WebDriver._locate (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:876:16)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:3232:17
+                    at WebDriver.findClickable (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:2898:15)
+                    at WebDriver.click (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:998:37)
+                    at Step.run (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\step.js:123:49)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\actor.js:138:23
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716652925966' stop='1716652998779'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716652928750' status='failed' stop='1716652998167'>
+            <name>Verify Most Read section is appearing on Desktop @only</name>
+            <title>Verify Most Read section is appearing on Desktop @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716652928780' status='failed' stop='1716652998166'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716652928780' status='passed' stop='1716652968152'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716652968152' status='failed' stop='1716652998166'>
+                            <name>I wait for element ".most-read-container h2 + ul", 30</name>
+                            <title>I wait for element ".most-read-container h2 + ul", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='172fe6c8-eadc-4472-a7e4-422e0732e91b-attachment.png' type='image/png' size='1164735'/>
+            </attachments>
+            <failure>
+                <message>element (.most-read-container h2 + ul) still not present on page after 30 sec</message>
+                <stack-trace>Error: element (.most-read-container h2 + ul) still not present on page after 30 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

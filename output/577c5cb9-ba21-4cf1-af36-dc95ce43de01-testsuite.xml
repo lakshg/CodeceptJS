@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716649494169' stop='1716649569978'>
+    <name>Live Page Tests</name>
+    <title>Live Page Tests</title>
+    <test-cases>
+        <test-case start='1716649503719' status='failed' stop='1716649546578'>
+            <name>Validate Livestream Player is visible</name>
+            <title>Validate Livestream Player is visible</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716649503740' status='failed' stop='1716649546578'>
+                    <name>Given I am on the live page ""</name>
+                    <title>Given I am on the live page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716649503741' status='passed' stop='1716649536557'>
+                            <name>I am on page "https://www.aljazeera.com/live"</name>
+                            <title>I am on page "https://www.aljazeera.com/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716649536558' status='failed' stop='1716649546578'>
+                            <name>I wait for element , 10</name>
+                            <title>I wait for element , 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='f3f34c45-5510-443c-b4c4-7339c0d75fae-attachment.png' type='image/png' size='1068712'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'type')</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'type')
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:43:15
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716649547359' status='failed' stop='1716649569402'>
+            <name>Validate Switch Player button is visible in Livestream Player</name>
+            <title>Validate Switch Player button is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716649547386' status='failed' stop='1716649569402'>
+                    <name>Given I am on the live page ""</name>
+                    <title>Given I am on the live page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716649547386' status='passed' stop='1716649559392'>
+                            <name>I am on page "https://www.aljazeera.com/live"</name>
+                            <title>I am on page "https://www.aljazeera.com/live"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716649559392' status='failed' stop='1716649569402'>
+                            <name>I wait for element , 10</name>
+                            <title>I wait for element , 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='08fa9d8e-8184-465e-83d3-9932662cb606-attachment.png' type='image/png' size='908372'/>
+            </attachments>
+            <failure>
+                <message>waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'type')</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: Cannot read properties of undefined (reading 'type')
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:43:15
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at runNextTicks (node:internal/process/task_queues:64:3)
+                    at process.processTimers (node:internal/timers:511:9)
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

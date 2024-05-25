@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716657315827' stop='1716657349214'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716657323026' status='passed' stop='1716657349067'>
+            <name>Verify Most Read section is appearing on Desktop @only</name>
+            <title>Verify Most Read section is appearing on Desktop @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716657323050' status='passed' stop='1716657348984'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657323050' status='passed' stop='1716657348957'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657348957' status='passed' stop='1716657348984'>
+                            <name>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</name>
+                            <title>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716657348984' status='passed' stop='1716657349015'>
+                    <name>Then I should see the Most Read section ""</name>
+                    <title>Then I should see the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657348984' status='passed' stop='1716657349015'>
+                            <name>On mainPage: see most read section </name>
+                            <title>On mainPage: see most read section </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716657348985' status='passed' stop='1716657349015'>
+                                    <name>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</name>
+                                    <title>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716657349015' status='passed' stop='1716657349016'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657349015' status='passed' stop='1716657349015'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657349015' status='passed' stop='1716657349015'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716657349016' status='passed' stop='1716657349066'>
+                    <name>Then I should see the Most Read section ""</name>
+                    <title>Then I should see the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657349016' status='passed' stop='1716657349031'>
+                            <name>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</name>
+                            <title>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657349031' status='passed' stop='1716657349066'>
+                            <name>On mainPage: see most read section </name>
+                            <title>On mainPage: see most read section </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716657349031' status='passed' stop='1716657349066'>
+                                    <name>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</name>
+                                    <title>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

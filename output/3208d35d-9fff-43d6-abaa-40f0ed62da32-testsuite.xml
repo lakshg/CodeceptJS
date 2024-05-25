@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716625319672' stop='1716625385925'>
+    <name>Livestream Player</name>
+    <title>Livestream Player</title>
+    <test-cases>
+        <test-case start='1716625381269' status='failed' stop='1716625381302'>
+            <name>Validate Player is visible in Livestream Player</name>
+            <title>Validate Player is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='c2593e33-e420-4531-bf59-84890edb1de0-attachment.png' type='image/png' size='5161'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "I am on the Al Jazeera live page"</message>
+                <stack-trace>Error: No steps matching "I am on the Al Jazeera live page"
+                    at matchStep (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\bdd.js:50:9)
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:60:18)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:550:7)
+                    at done (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:310:5)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:371:11</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716625383794' status='failed' stop='1716625383801'>
+            <name>Validate Switch Player button is visible in Livestream Player</name>
+            <title>Validate Switch Player button is visible in Livestream Player</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='cd61c67f-db97-466c-b635-82922d37214d-attachment.png' type='image/png' size='5161'/>
+            </attachments>
+            <failure>
+                <message>No steps matching "I am on the Al Jazeera live page"</message>
+                <stack-trace>Error: No steps matching "I am on the Al Jazeera live page"
+                    at matchStep (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\bdd.js:50:9)
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:60:18)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:485:14)
+                    at cbHookRun (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:550:7)
+                    at done (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:310:5)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:371:11</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

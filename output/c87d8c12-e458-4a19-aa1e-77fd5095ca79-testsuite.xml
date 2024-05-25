@@ -1,0 +1,152 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716638925857' stop='1716639063483'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716638925857' status='failed' stop='1716638960568'>
+            <name>Verify Most Read section is appearing on Desktop</name>
+            <title>Verify Most Read section is appearing on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716638925866' status='failed' stop='1716638960568'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716638925866' status='passed' stop='1716638927599'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716638927599' status='failed' stop='1716638960567'>
+                            <name>I wait for element "div[data-testid="most-read"]", 30</name>
+                            <title>I wait for element "div[data-testid="most-read"]", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='a4210079-256e-46cb-b139-a98750420370-attachment.png' type='image/png' size='1205250'/>
+            </attachments>
+            <failure>
+                <message>element (div[data-testid="most-read"]) still not present on page after 30 sec</message>
+                <stack-trace>Error: element (div[data-testid="most-read"]) still not present on page after 30 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716638961282' status='failed' stop='1716639003777'>
+            <name>Verify Most Read section has 10 posts on Desktop</name>
+            <title>Verify Most Read section has 10 posts on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716638961298' status='failed' stop='1716639003777'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716638961299' status='passed' stop='1716638973766'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716638973767' status='failed' stop='1716639003776'>
+                            <name>I wait for element "div[data-testid="most-read"]", 30</name>
+                            <title>I wait for element "div[data-testid="most-read"]", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='e0005547-ff4d-4a62-b935-1df26f184275-attachment.png' type='image/png' size='1205261'/>
+            </attachments>
+            <failure>
+                <message>element (div[data-testid="most-read"]) still not present on page after 30 sec</message>
+                <stack-trace>Error: element (div[data-testid="most-read"]) still not present on page after 30 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716639004707' status='failed' stop='1716639004728'>
+            <name>Verify Most Read section is not appearing on Mobile</name>
+            <title>Verify Most Read section is not appearing on Mobile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='1fac057d-a455-4007-acce-26fe0da6a8f7-attachment.png' type='image/png' size='1205261'/>
+            </attachments>
+            <failure>
+                <message>I.setViewPortSize is not a function</message>
+                <stack-trace>TypeError: I.setViewPortSize is not a function
+                    at C:\Users\laksh\codeceptjs-bdd\steps\mainPage_steps.js:9:5
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:82:15)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716639005586' status='failed' stop='1716639062591'>
+            <name>Verify Bypass Block menu item for Most Read is working on Desktop</name>
+            <title>Verify Bypass Block menu item for Most Read is working on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716639005601' status='failed' stop='1716639062591'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716639005601' status='passed' stop='1716639032576'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716639032576' status='failed' stop='1716639062590'>
+                            <name>I wait for element "div[data-testid="most-read"]", 30</name>
+                            <title>I wait for element "div[data-testid="most-read"]", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='4e410e1c-0025-4b1d-a086-d40880361195-attachment.png' type='image/png' size='1205321'/>
+            </attachments>
+            <failure>
+                <message>element (div[data-testid="most-read"]) still not present on page after 30 sec</message>
+                <stack-trace>Error: element (div[data-testid="most-read"]) still not present on page after 30 sec
+                    at file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/waitUntil.js:39:23
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

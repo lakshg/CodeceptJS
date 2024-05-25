@@ -1,0 +1,253 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716646177470' stop='1716646226320'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716646177470' status='passed' stop='1716646209786'>
+            <name>Verify Most Read section is appearing on Desktop</name>
+            <title>Verify Most Read section is appearing on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716646177473' status='passed' stop='1716646209614'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646177473' status='passed' stop='1716646209550'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646209550' status='passed' stop='1716646209614'>
+                            <name>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</name>
+                            <title>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646209614' status='passed' stop='1716646209614'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646209614' status='passed' stop='1716646209614'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716646209614' status='passed' stop='1716646209786'>
+                    <name>Then I should see the Most Read section ""</name>
+                    <title>Then I should see the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646209614' status='passed' stop='1716646209786'>
+                            <name>On mainPage: see most read section </name>
+                            <title>On mainPage: see most read section </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716646209614' status='passed' stop='1716646209786'>
+                                    <name>I see element "//h3[text()='Must Read']//following-sibling::ul//child::article"</name>
+                                    <title>I see element "//h3[text()='Must Read']//following-sibling::ul//child::article"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1716646210076' status='failed' stop='1716646213503'>
+            <name>Verify Most Read section has 10 posts on Desktop</name>
+            <title>Verify Most Read section has 10 posts on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716646210082' status='passed' stop='1716646211654'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646210082' status='passed' stop='1716646211627'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646211627' status='passed' stop='1716646211653'>
+                            <name>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</name>
+                            <title>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646211654' status='passed' stop='1716646211654'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646211654' status='passed' stop='1716646211654'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716646211654' status='failed' stop='1716646213503'>
+                    <name>Then I should see expected posts in the Most Read section ""</name>
+                    <title>Then I should see expected posts in the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646211654' status='failed' stop='1716646213503'>
+                            <name>On mainPage: see most read posts 10</name>
+                            <title>On mainPage: see most read posts 10</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716646211654' status='failed' stop='1716646213503'>
+                                    <name>I see number of elements "//h3[text()='Must Read']//following-sibling::ul//child::article article", 10</name>
+                                    <title>I see number of elements "//h3[text()='Must Read']//following-sibling::ul//child::article article", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='282d482c-12fa-4f5d-87b5-85b864a54aec-attachment.png' type='image/png' size='1332003'/>
+            </attachments>
+            <failure>
+                <message>javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //h3[text()='Must Read']//following-sibling::ul//child::article article because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[text()='Must Read']//following-sibling::ul//child::article article' is not a valid XPath expression."}
+                  (Session info: chrome=125.0.6422.113)</message>
+                <stack-trace>javascript error: javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //h3[text()='Must Read']//following-sibling::ul//child::article article because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//h3[text()='Must Read']//following-sibling::ul//child::article article' is not a valid XPath expression."}
+                  (Session info: chrome=125.0.6422.113)
+                    at getErrorFromResponseBody (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriver/build/utils.js:195:12)
+                    at NodeJSRequest._request (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriver/build/request/index.js:193:23)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)
+                    at async Browser.$$ (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/$$.js:46:11)
+                    at async Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:29)
+                    at async WebDriver._locate (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:881:19)
+                    at async WebDriver.seeNumberOfElements (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:1579:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716646214132' status='failed' stop='1716646214134'>
+            <name>Verify Most Read section is not appearing on Mobile</name>
+            <title>Verify Most Read section is not appearing on Mobile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='3a8db578-3f33-4c0b-86cb-ab938b5f3cc1-attachment.png' type='image/png' size='1332055'/>
+            </attachments>
+            <failure>
+                <message>I.setViewPortSize is not a function</message>
+                <stack-trace>TypeError: I.setViewPortSize is not a function
+                    at C:\Users\laksh\codeceptjs-bdd\steps\mainPage_steps.js:12:5
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:82:15)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716646214598' status='failed' stop='1716646225633'>
+            <name>Verify Bypass Block menu item for Most Read is working on Desktop</name>
+            <title>Verify Bypass Block menu item for Most Read is working on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716646214609' status='passed' stop='1716646225633'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646214610' status='passed' stop='1716646225597'>
+                            <name>I am on page "https://aljazeera.com/"</name>
+                            <title>I am on page "https://aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646225597' status='passed' stop='1716646225632'>
+                            <name>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</name>
+                            <title>I wait for element "//h3[text()='Must Read']//following-sibling::ul//child::article", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646225632' status='passed' stop='1716646225632'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716646225632' status='passed' stop='1716646225632'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716646225633' status='failed' stop='1716646225633'>
+                    <name>When I click on the Bypass Block menu ""</name>
+                    <title>When I click on the Bypass Block menu ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716646225633' status='failed' stop='1716646225633'>
+                            <name>On mainPage: click bypass menu </name>
+                            <title>On mainPage: click bypass menu </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716646225633' status='failed' stop='1716646225633'>
+                                    <name>I click "body", {"x":10,"y":10}</name>
+                                    <title>I click "body", {"x":10,"y":10}</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='0bb573f7-431f-419f-abd7-5e1bae5a1089-attachment.png' type='image/png' size='1332053'/>
+            </attachments>
+            <failure>
+                <message>Please define "customLocatorStrategies" as an Object and the Locator Strategy as a "function".</message>
+                <stack-trace>Error: Please define "customLocatorStrategies" as an Object and the Locator Strategy as a "function".
+                    at WebDriver._isCustomLocator (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:587:13)
+                    at WebDriver._locate (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:876:16)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:3232:17
+                    at WebDriver.findClickable (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:2898:15)
+                    at WebDriver.click (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:998:37)
+                    at Step.run (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\step.js:123:49)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\actor.js:138:23
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

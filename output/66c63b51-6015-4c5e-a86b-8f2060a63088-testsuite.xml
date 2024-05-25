@@ -1,0 +1,145 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716643508853' stop='1716643511639'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716643508853' status='failed' stop='1716643508863'>
+            <name>Verify Most Read section is appearing on Desktop</name>
+            <title>Verify Most Read section is appearing on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716643508861' status='failed' stop='1716643508862'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716643508862' status='failed' stop='1716643508862'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='a613b2f7-ee9e-4c82-a984-b6990a171de5-attachment.png' type='image/png' size='981172'/>
+            </attachments>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/url.js:40:15)
+                    at Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:38)
+                    at Browser.&lt;anonymous> (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:259:24)
+                    at WebDriver.amOnPage (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:986:25)
+                    at Step.run (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\step.js:123:49)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\actor.js:138:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716643509521' status='failed' stop='1716643509532'>
+            <name>Verify Most Read section has 10 posts on Desktop</name>
+            <title>Verify Most Read section has 10 posts on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716643509531' status='failed' stop='1716643509532'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716643509531' status='failed' stop='1716643509532'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='da90df54-3c85-4760-b0a5-bf46e3a9176d-attachment.png' type='image/png' size='976842'/>
+            </attachments>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/url.js:40:15)
+                    at Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:38)
+                    at Browser.&lt;anonymous> (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:259:24)
+                    at WebDriver.amOnPage (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:986:25)
+                    at Step.run (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\step.js:123:49)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\actor.js:138:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716643510256' status='failed' stop='1716643510260'>
+            <name>Verify Most Read section is not appearing on Mobile</name>
+            <title>Verify Most Read section is not appearing on Mobile</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='9fbb8ad4-d7fe-4222-a6ea-83b71d8016d2-attachment.png' type='image/png' size='967924'/>
+            </attachments>
+            <failure>
+                <message>I.setViewPortSize is not a function</message>
+                <stack-trace>TypeError: I.setViewPortSize is not a function
+                    at C:\Users\laksh\codeceptjs-bdd\steps\mainPage_steps.js:12:5
+                    at runSteps (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:82:15)
+                    at Test.&lt;anonymous> (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\interfaces\gherkin.js:142:48)
+                    at test.fn (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\scenario.js:79:14)
+                    at callFnAsync (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:394:21)
+                    at Runnable.run (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runnable.js:338:7)
+                    at Runner.runTest (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:677:10)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:800:12
+                    at next (C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:592:14)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\mocha\lib\runner.js:602:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1716643510950' status='failed' stop='1716643510958'>
+            <name>Verify Bypass Block menu item for Most Read is working on Desktop</name>
+            <title>Verify Bypass Block menu item for Most Read is working on Desktop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716643510957' status='failed' stop='1716643510958'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716643510957' status='failed' stop='1716643510957'>
+                            <name>I am on page </name>
+                            <title>I am on page </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='ef77f3a9-0092-4d88-8e08-6f9883f519e1-attachment.png' type='image/png' size='973395'/>
+            </attachments>
+            <failure>
+                <message>Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at Browser.url (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/build/commands/browser/url.js:40:15)
+                    at Browser.wrapCommandFn (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:90:38)
+                    at Browser.&lt;anonymous> (file:///C:/Users/laksh/codeceptjs-bdd/node_modules/webdriverio/node_modules/@wdio/utils/build/shim.js:259:24)
+                    at WebDriver.amOnPage (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:986:25)
+                    at Step.run (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\step.js:123:49)
+                    at C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\actor.js:138:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

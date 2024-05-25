@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716657661573' stop='1716657700346'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716657664629' status='failed' stop='1716657699431'>
+            <name>Verify Most Read section has 10 posts on Desktop @only</name>
+            <title>Verify Most Read section has 10 posts on Desktop @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716657664654' status='passed' stop='1716657699374'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657664654' status='passed' stop='1716657699304'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657699305' status='passed' stop='1716657699337'>
+                            <name>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</name>
+                            <title>I wait for element "div.hp-featured-categories > div:nth-child(1) >h3", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657699338' status='passed' stop='1716657699373'>
+                            <name>On mainPage: see most read section "Must Read"</name>
+                            <title>On mainPage: see most read section "Must Read"</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716657699338' status='passed' stop='1716657699373'>
+                                    <name>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</name>
+                                    <title>I see element "div.hp-featured-categories > div:nth-child(1) >h3"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1716657699373' status='passed' stop='1716657699374'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657699374' status='passed' stop='1716657699374'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716657699374' status='failed' stop='1716657699431'>
+                    <name>Then I should see expected posts in the Most Read section ""</name>
+                    <title>Then I should see expected posts in the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716657699374' status='passed' stop='1716657699405'>
+                            <name>I wait for element "div.hp-featured-categories > div:nth-child(1) >ul >li", 30</name>
+                            <title>I wait for element "div.hp-featured-categories > div:nth-child(1) >ul >li", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716657699405' status='failed' stop='1716657699431'>
+                            <name>On mainPage: see most read posts 10</name>
+                            <title>On mainPage: see most read posts 10</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716657699406' status='failed' stop='1716657699431'>
+                                    <name>I see number of elements "div.hp-featured-categories > div:nth-child(1) >ul >li", 10</name>
+                                    <title>I see number of elements "div.hp-featured-categories > div:nth-child(1) >ul >li", 10</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='74870359-f10f-4ca4-9ae1-70aaa20747c4-attachment.png' type='image/png' size='1164735'/>
+            </attachments>
+            <failure>
+                <message>expected number of elements (div.hp-featured-categories > div:nth-child(1) >ul >li) is 10, but found 3</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: expected number of elements (div.hp-featured-categories > div:nth-child(1) >ul >li) is 10, but found 3
+                    at WebDriver.seeNumberOfElements (C:\Users\laksh\codeceptjs-bdd\node_modules\codeceptjs\lib\helper\WebDriver.js:1580:19)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

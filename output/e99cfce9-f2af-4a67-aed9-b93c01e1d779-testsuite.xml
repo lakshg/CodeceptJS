@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1716656494492' stop='1716656531792'>
+    <name>Main Page Tests</name>
+    <title>Main Page Tests</title>
+    <test-cases>
+        <test-case start='1716656498062' status='passed' stop='1716656531562'>
+            <name>Verify Most Read section is appearing on Desktop @only</name>
+            <title>Verify Most Read section is appearing on Desktop @only</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+                <label name='tag' value='@only'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1716656498089' status='passed' stop='1716656531387'>
+                    <name>Given I am on the main page ""</name>
+                    <title>Given I am on the main page ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716656498089' status='passed' stop='1716656531337'>
+                            <name>I am on page "https://www.aljazeera.com/"</name>
+                            <title>I am on page "https://www.aljazeera.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716656531338' status='passed' stop='1716656531385'>
+                            <name>I wait for element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)", 30</name>
+                            <title>I wait for element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716656531385' status='passed' stop='1716656531386'>
+                            <name>I say "Main page loaded"</name>
+                            <title>I say "Main page loaded"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716656531386' status='passed' stop='1716656531386'>
+                            <name>Main page loaded</name>
+                            <title>Main page loaded</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1716656531387' status='passed' stop='1716656531561'>
+                    <name>Then I should see the Most Read section ""</name>
+                    <title>Then I should see the Most Read section ""</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1716656531387' status='passed' stop='1716656531474'>
+                            <name>I wait for element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)", 30</name>
+                            <title>I wait for element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1716656531474' status='passed' stop='1716656531561'>
+                            <name>On mainPage: see most read section </name>
+                            <title>On mainPage: see most read section </title>
+                            <attachments/>
+                            <steps>
+                                <step start='1716656531475' status='passed' stop='1716656531561'>
+                                    <name>I see element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)"</name>
+                                    <title>I see element "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > h3:nth-child(1)"</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
