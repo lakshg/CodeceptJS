@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npx chromedriver --version 124.0.6367.207"
+    "postinstall": "npx chromedriver --version 124.0.6367.207",
+    "test": "npx codeceptjs run --steps",
+    "test:desktop": "npx codeceptjs run --features --grep @desktop --steps",
+    "test:mobile": "npx codeceptjs run --features --grep @mobile --steps",
+    "test:regression": "npx codeceptjs run --features --grep @regression --steps",
+    "test:mainPage": "npx codeceptjs run --features --grep @mainPage --steps",
+    "start:chromedriver": "npx chromedriver --port=9516",
+    "allure:generate": "allure generate output --clean",
+    "allure:serve": "allure serve output"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +23,7 @@
     "allure-commandline": "^2.29.0",
     "chai": "^4.4.1",
     "chromedriver": "^125.0.2",
-    "codeceptjs": "^3.6.2",
-    "webdriverio": "^8.38.0"
+    "codeceptjs": "^3.6.2"
+   
   }
 }

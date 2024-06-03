@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Output directories
+output/
+allure-results/
+allure-report/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Specific configurations
+codecept.json
+codecept.conf.js
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*.swp

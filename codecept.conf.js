@@ -52,5 +52,9 @@ exports.config = {
       './steps/livePage_steps.js'
     ],
     retry: 2
+  },
+  screenSizes: {
+    desktop: { width: 1200, height: 900 },
+    mobile: { width: 375, height: 812 }
   }
 };

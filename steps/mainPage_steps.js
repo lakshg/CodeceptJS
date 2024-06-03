@@ -1,21 +1,16 @@
 const { I, mainPage } = inject();
 const dataHelper = require('../helpers/dataHelper');
+const config = require('../codecept.conf').config;
 
-Given('I am on the main page', async () => {
+Given('I am on the main page with {string} viewport', (viewport) => {
+  const size = config.screenSizes[viewport];
   const data = dataHelper.getDataFromJSON('../data/testData.json');
   I.amOnPage(data.mainPage.url);
   I.waitForElement(mainPage.mostReadSection, 30);
   mainPage.seeMostReadSection(data.mainPage.heading);
-  I.say("Main page loaded");
+  console.log("Main page loaded");
 });
 
-Given('I am on the main page with mobile viewport',async () => {
-  const data = dataHelper.getDataFromJSON('../data/testData.json');
-  I.resizeWindow(375, 812); // Resize the window size
-  I.amOnPage(data.mainPage.url);
-  I.waitForElement(mainPage.mostReadSection, 30); // wait up to 30 seconds for the element
-  I.say('Most Read section is not visible');
-});
 
 Then('I should see the Most Read section', async () => {
   try {
@@ -31,7 +26,7 @@ Then('I should see expected posts in the Most Read section', async () => {
     const data = dataHelper.getDataFromJSON('../data/testData.json');
     I.waitForElement(mainPage.mostReadArticles, 30);
     mainPage.seeMostReadPosts(data.mainPage.expectedPosts);
-    I.say('10 posts are visible in the Most Read section');
+    console.log('10 posts are visible in the Most Read section');
   } catch (e) {
     console.error('Error seeing 10 posts in the Most Read section:', e);
   }

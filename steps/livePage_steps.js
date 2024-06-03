@@ -5,7 +5,7 @@ Given('I am on the live page', () => {
   const data = dataHelper.getDataFromJSON('../data/testData.json');
   I.amOnPage(data.livePage.url);
   I.waitForElement(livePage.liveStreamPlayerSelector, 10); // wait up to 10 seconds for the element
-  I.say('Live page loaded');
+  console.log('Live page loaded');
 });
 
 Then('I should see the Livestream Player', () => {
